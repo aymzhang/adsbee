@@ -1,0 +1,11 @@
+[tool.poetry]
+# Loose example scripts + decision docs, not an installable package.
+package-mode = false
+name = "factory-test"
+version = "0.1.0"
+description = "OpenHTF factory-fixture test prototype (examples + decision docs)"
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openhtf = "^1.6.1"
